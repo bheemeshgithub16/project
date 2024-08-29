@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+.container {
+    width: 80;
+    margin: 0 auto;
+
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1{
+    margin: 0;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav ul  li {
+    display: inline;
+    margin: 0 10px;
+
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search-bar input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.job-listing {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px 0;
+}
+
+.job {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+
+}
+
+.job h2 {
+    margin: 0;
+    color: #333;
+
+}
+
+.job p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.job a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: 10px 0;
+    margin-top: 20px;
+}
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: darkblue;
+}
